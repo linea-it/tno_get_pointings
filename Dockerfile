@@ -1,7 +1,7 @@
 FROM python:latest
 MAINTAINER Glauber Costa Vila Verde <glauber.vila.verde@gmail.com>
 
-ENV GUNICORN_PORT=7001
+ENV GUNICORN_PORT=7005
 ENV GUNICORN_MODULE=api
 ENV GUNICORN_CALLABLE=app
 ENV GUNICORN_USER=gunicorn
